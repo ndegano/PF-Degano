@@ -1,0 +1,73 @@
+/* IMPORTS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+/* VARIABLES*/
+:root {
+    /* PALETA*/
+    --primary: #BF0A0D;
+    --secondary: #7E1C13;
+    --light: #fdfdfd;
+    --accent: #E6E1C2;
+    /* TAMAÑO FUENTE*/
+    --text-lg: 3.2em;
+    --text-md: 2.8em;
+    --text-sm: 2.0em;
+    --text-es: 1.5em;
+    /* ESPACIOS*/
+    --sp-xxl: 12rem;
+    --sp-xl: 8rem;
+    --sp-lg: 6rem;
+    --sp-md: 4rem;
+    --sp-sm: 2rem;
+    --sp-xs: 1rem;
+
+}
+/* NORMALIZE*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html { 
+    font-size: 62,5%;
+}
+
+body {
+    font-family: permanent 'Permanent Marker', sans-serif;
+    font-size: var(--text-sm);
+    color: var(--secondary);
+}
+
+ul  {list-style-type: none;
+
+}
+
+a   {font-size: var(--text-es);
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER*/
+    header {
+        background-color: var(--accent);
+        padding: var(--sp-sm);
+    }
+    .navbar .navbar__logo {
+        display: inline-block;
+    }
+    .navbar .menu {
+        display: inline-block;
+    }
+    .navbar .menu .menu__item {
+        display: inline-block;
+    }
+
+/* FOOTER*/
+footer {background-color: var(--secondary);}
