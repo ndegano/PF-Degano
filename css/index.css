@@ -68,6 +68,28 @@ a   {font-size: var(--text-es);
     .navbar .menu .menu__item {
         display: inline-block;
     }
+    .navbar .menu .menu__item:hover {
+        background-color: var(--light);
+        color: var(--primary);
+    }
+    .navbar .menu .menu__item .menu__link {
+        padding: var(--sp-xs);
+        transition: background .4s ease-in-out; 
+    }
+    .navbar .menu .menu__item .menu__link {
+        font-size: medium;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar .menu {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+        
 
 /* FOOTER*/
 footer {background-color: var(--secondary);}
