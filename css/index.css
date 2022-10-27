@@ -35,7 +35,7 @@ html {
 }
 
 body {
-    font-family: permanent 'Permanent Marker', sans-serif;
+    font-family: 'Permanent Marker', cursive;
     font-size: var(--text-sm);
     color: var(--secondary);
 }
@@ -71,6 +71,7 @@ a   {font-size: var(--text-es);
     .navbar .menu .menu__item:hover {
         background-color: var(--light);
         color: var(--primary);
+        font-family: 'Permanent Marker', cursive;
     }
     .navbar .menu .menu__item .menu__link {
         padding: var(--sp-xs);
@@ -89,11 +90,20 @@ a   {font-size: var(--text-es);
         align-items: center;
     }
 
-        
+/* GALERIA*/        
+ .galeria__fotos {
+    display: flex;
+ }
+
+/* CONTACTO*/
+ .fondo {width: 100%;}
+ .btn {font-family: 'Permanent Marker', cursive;}
+
 
 /* FOOTER*/
-footer {background-color: var(--secondary);
+ footer {background-color: var(--secondary);
 height: 100%;
 padding: var(--sp-xs);
 background-image: linear-gradient();
 }
+ .texto__footer {color: var(--light);}
