@@ -102,21 +102,19 @@ ol, ul, dl {
  }
 
 /* CONTACTO*/
- .fondo {width: 100%;}
- .btn {font-family: 'Permanent Marker', cursive;}
- #contacto__katsu {
-    background-image: url(../img/Contacto.png);
-    height: 750px;
-    display: grid;
-    align-items: center;
-}
- .caja__contacto {
-    border: 2px solid black;
-    background-color: var(--light);
-    height: 200px;
-    width: 300px;
+ #fondo__contacto {background-image: url(../img/Contacto.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    opacity: 90%;
 }
 
+/* SERVICIOS*/
+.titulo__servicios {padding: 4rem;
+display: flex;
+align-items: center;}
+
+/* HOME*/
+.TituloHome {color: #BF0A0D;}
 
 /* FOOTER*/
  footer {background-color: var(--secondary);
