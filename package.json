@@ -1,0 +1,24 @@
+{
+  "name": "proyecto_katsu_sando",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/index.scss css/translated.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndegano/proyecto_katsu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndegano/proyecto_katsu/issues"
+  },
+  "homepage": "https://github.com/ndegano/proyecto_katsu#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
