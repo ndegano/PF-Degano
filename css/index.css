@@ -123,3 +123,7 @@ padding: var(--sp-xs);
 display: flex;
 }
  .texto__footer {color: var(--light);}
+ .footer__items {
+    padding: .5rem;
+    width: 100%;
+}
